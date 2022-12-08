@@ -1,0 +1,34 @@
+{
+  "name": "semester-project-2",
+  "version": "0.0.1",
+  "description": "this is my semester project 2 @ Noroff ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pjatte1337/SP2.git"
+  },
+  "keywords": [
+    "semester",
+    "project",
+    "noroff"
+  ],
+  "author": "Joakim Vanebo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pjatte1337/SP2/issues"
+  },
+  "homepage": "https://github.com/Pjatte1337/SP2#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.56.2",
+    "vite": "^3.2.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
